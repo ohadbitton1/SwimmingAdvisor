@@ -1,0 +1,29 @@
+flip_idx:
+- 0
+- 1
+- 2
+- 3
+- 4
+- 5
+- 6
+- 7
+- 8
+- 9
+- 10
+- 11
+- 12
+kpt_shape:
+- 13
+- 3
+names:
+- person
+nc: 1
+roboflow:
+  license: CC BY 4.0
+  project: freestyle-kkgfa
+  url: https://universe.roboflow.com/2bfound-ai-project/freestyle-kkgfa/dataset/1
+  version: 1
+  workspace: 2bfound-ai-project
+test: ../test/images
+train: ../train/images
+val: ../valid/images
