@@ -1,0 +1,38 @@
+# --- Python & Environment ---
+venv/
+.venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# --- Machine Learning Data (Crucial!) ---
+# אנחנו לא מעלים את אלפי התמונות לגיט
+data/freestyle/train/
+data/freestyle/valid/
+data/freestyle/test/
+# אם אתה רוצה להתעלם מכל תיקיית ה-data חוץ מה-YAML
+data/*
+!data/freestyle/data.yaml
+
+# --- YOLOv8 Runs & Logs ---
+# תיקיית הריצות מכילה המון גרפים וקבצי לוג כבדים
+runs/
+*.cache
+
+# --- Large Media Files ---
+*.mp4
+*.avi
+*.mov
+*.zip
+*.tar
+*.gz
+
+# --- OS & IDE Files ---
+.DS_Store
+.vscode/
+.idea/
+.ipynb_checkpoints/
+.env
+
