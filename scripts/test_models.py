@@ -216,9 +216,7 @@ def main():
     available_folders = []
     test_folders = [
         'frames_mi0.1',  # Extracted frames
-        'Dataset/test/images',
-        'Dataset/valid/images',
-        'Dataset/train/images'
+        
     ]
     
     for folder in test_folders:

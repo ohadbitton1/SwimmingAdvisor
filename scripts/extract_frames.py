@@ -11,7 +11,7 @@ def extract_frames(video_path, output_dir=None, interval_ms=4, start_time=0, end
     """
     Extract frames from video at specified interval
     
-    Args:
+
         video_path: Path to video file
         output_dir: Directory to save frames (default: frames/)
         interval_ms: Interval between frames in milliseconds
