@@ -7,27 +7,19 @@ __pycache__/
 *.pyo
 *.pyd
 
-# --- Machine Learning Data (Crucial!) ---
-# אנחנו לא מעלים את אלפי התמונות לגיט
-data/freestyle/train/
-data/freestyle/valid/
-data/freestyle/test/
-# אם אתה רוצה להתעלם מכל תיקיית ה-data חוץ מה-YAML
-data/*
-!data/freestyle/data.yaml
-
-# --- YOLOv8 Runs & Logs ---
-# תיקיית הריצות מכילה המון גרפים וקבצי לוג כבדים
+# --- Machine Learning Data (Ignore All) ---
+# This ignores your current data and the deleted Dataset folder
+data/
+Dataset/
 runs/
 *.cache
+*.pt
+yolov8n-pose.pt
 
-# --- Large Media Files ---
-*.mp4
-*.avi
-*.mov
-*.zip
-*.tar
-*.gz
+# --- Models & Weights (ALLOWLIST) ---
+# Explicitly keep your trained models for the portfolio
+!models/
+!models/**/*.pt
 
 # --- OS & IDE Files ---
 .DS_Store
@@ -35,4 +27,3 @@ runs/
 .idea/
 .ipynb_checkpoints/
 .env
-

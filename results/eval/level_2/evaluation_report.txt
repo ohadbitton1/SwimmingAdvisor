@@ -1,0 +1,22 @@
+
+==================================================
+      SWIMADVISOR PERFORMANCE REPORT - LEVEL 2
+==================================================
+Timestamp:     2026-01-22 23:08:30
+Model Path:    models/level2/best.pt
+Dataset YAML:  data/freestyle/data.yaml
+Test Video:    data/swimming_test.mp4
+
+--------------------------------------------------
+METRICS SUMMARY
+--------------------------------------------------
+Static OKS (mAP 50-95): 0.6912
+Static PCK (mAP 50):    0.9937
+Temporal Jitter:        56.94 px/frame
+
+--------------------------------------------------
+STATUS
+--------------------------------------------------
+Evaluation completed. Plots and metrics are saved 
+in: results/eval/level_2
+==================================================
