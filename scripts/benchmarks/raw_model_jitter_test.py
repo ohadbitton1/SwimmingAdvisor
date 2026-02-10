@@ -137,7 +137,7 @@ def run_jitter_benchmark():
         "Jitter_Score": jitter
     }).sort_values("Jitter_Score", ascending=False)
 
-    out_dir = Path("results/jitter_res")
+    out_dir = Path("results/metrics/jitter_res")
     out_dir.mkdir(parents=True, exist_ok=True)
     csv_file = out_dir / f"jitter_{name.lower().replace(' ', '_')}.csv"
     report.to_csv(csv_file, index=False)

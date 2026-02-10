@@ -137,11 +137,21 @@ python main.py
 
 The **Smoothing Layer** significantly reduces skeletal "shaking" compared to raw model inference:
 
-| Metric | Raw Model (Level 3.5) | Model + Smoothing Layer | Improvement |
-| --- | --- | --- | --- |
-| **System-Wide Jitter** | 1240.5 px/s² | 420.3 px/s² | **~66.1%** |
-| **Wrist Stability** | 1850.2 px/s² | 377.4 px/s² | **~79.6%** |
-
+Keypoint,Raw Jitter (px),Smoothing Layer (px),Improvement (%)
+R-Wrist,79.61,16.25,79.59%
+R-Elbow,54.54,11.16,79.53%
+L-Wrist,69.08,15.66,77.33%
+L-Elbow,43.67,10.52,75.91%
+Head,30.26,7.48,75.27%
+L-Ankle,57.29,19.66,65.69%
+L-Shoulder,30.61,10.52,65.64%
+R-Ankle,55.14,19.69,64.28%
+R-Shoulder,27.53,10.87,60.53%
+L-Knee,38.57,15.88,58.81%
+R-Knee,36.79,15.94,56.67%
+L-Hip,30.46,14.89,51.11%
+R-Hip,28.01,14.29,48.97%
+AVERAGE,44.74,13.29,66.10%
 ---
 
 ## 📦 Dependencies
