@@ -1,0 +1,2 @@
+Model,Detection Rate (%),mAP50 (PCK),mAP95 (OKS)
+YOLOv8-Large,93.15,0.9043,0.6698

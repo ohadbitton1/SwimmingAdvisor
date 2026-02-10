@@ -1,0 +1,12 @@
+# hadar_check.yaml
+path: ./data/hadar_check  # root directory
+train: images             # not used for eval but required
+val: images               # validation path
+test: images              # test path
+
+# Keypoint definitions
+names:
+  0: swimmer
+
+# YOLO Pose Configuration (13 points - No eyes/ears)
+kpt_shape: [13, 3]

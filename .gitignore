@@ -1,0 +1,24 @@
+# --- Python Environment ---
+# Ignore the virtual environment and local environment variables
+venv/
+.env
+
+# --- Compiled Files ---
+# Ignore Python bytecode which is generated automatically
+__pycache__/
+*.pyc
+
+# --- Deep Learning & Training ---
+# Ignore YOLO training logs, temporary weights, and results
+runs/
+.ipynb_checkpoints/
+
+# --- Operating System Files ---
+# Ignore system-specific files that don't belong in the repository
+.DS_Store
+Thumbs.db
+
+# --- Dataset & Media (Optional) ---
+# If you want to keep your repo slim, you can ignore large video files
+# and host them elsewhere, but since we are using Git LFS, 
+# we allow .pt and .mp4 files.

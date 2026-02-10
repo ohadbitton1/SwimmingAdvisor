@@ -1,0 +1,19 @@
+# Core Deep Learning
+ultralytics>=8.1.0      # YOLOv8 architecture and training
+torch>=2.0.0            # Deep learning backend
+torchvision>=0.15.0     # Image processing utilities for torch
+
+# Data Handling & Math
+numpy>=1.24.0           # Array operations and geometric calculations
+pandas>=2.0.0           # Smoothing, interpolation, and KPI logging
+scipy>=1.10.0           # Savitzky-Golay filter for V10 layer
+
+# Computer Vision & Video
+opencv-python>=4.8.0    # Video I/O and frame rendering
+matplotlib>=3.7.0       # KPI plotting and loss curves
+
+# Utilities & Preprocessing
+tqdm>=4.65.0            # Progress bars for inference and training
+roboflow>=1.1.0         # Dataset downloading (Gen1-Gen4)
+pyyaml>=6.0.0           # Handling unified_13pt.yaml configurations
+python-dotenv>=1.0.0    # Optional: for managing Roboflow API keys

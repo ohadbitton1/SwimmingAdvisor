@@ -1,0 +1,2 @@
+Model,Detection Rate (%),mAP50 (PCK),mAP95 (OKS)
+YOLOv8-Nano,75.34,0.5218,0.3865
