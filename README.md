@@ -157,24 +157,21 @@ We measured **Jitter (Acceleration-based noise)** across all models using a norm
 
 To reach clinical biomechanical standards, we applied the **Smoothing Layer** to our final model. This reduced high-frequency noise by an additional **66.1%** on average, with the most dramatic improvements seen at the extremities.
 
-| Keypoint | Raw Jitter (px) | Stabilized (px) | Improvement |
-| --- | --- | --- | --- |
-| **R-Wrist** | 79.61 | 16.25 | **79.59%** |
-| **R-Elbow** | 54.54 | 11.16 | **79.53%** |
-| **L-Wrist** | 69.08 | 15.66 | **77.33%** |
-| **L-Elbow** | 43.67 | 10.52 | **75.91%** |
-| **Head** | 30.26 | 7.48 | **75.27%** |
-| **L-Ankle** | 57.29 | 19.66 | **65.69%** |
-| **L-Shoulder** | 30.61 | 10.52 | **65.64%** |
-| **R-Ankle** | 55.14 | 19.69 | **64.28%** |
-| **R-Shoulder** | 27.53 | 10.87 | **60.53%** |
-| **L-Knee** | 38.57 | 15.88 | **58.81%** |
-| **R-Knee** | 36.79 | 15.94 | **56.67%** |
-| **L-Hip** | 30.46 | 14.89 | **51.11%** |
-| **R-Hip** | 28.01 | 14.29 | **48.97%** |
-| --- | --- | --- | --- |
-| **AVERAGE** | **44.74** | **13.29** | **66.10%** |
-
+| Keypoint | Raw_Jitter_px | Smoothed_Jitter_px | Improvement_% |
+| :--- | :--- | :--- | :--- |
+| Head | 30.26 | 5.03 | 83.37 |
+| L-Shoulder | 30.61 | 5.15 | 83.19 |
+| R-Shoulder | 27.53 | 4.75 | 82.73 |
+| L-Elbow | 43.67 | 8.34 | 80.91 |
+| R-Elbow | 54.54 | 9.77 | 82.08 |
+| L-Wrist | 69.08 | 13.8 | 80.03 |
+| R-Wrist | 79.61 | 14.98 | 81.18 |
+| L-Hip | 30.46 | 4.82 | 84.16 |
+| R-Hip | 28.01 | 4.63 | 83.46 |
+| L-Knee | 38.57 | 6.83 | 82.29 |
+| R-Knee | 36.79 | 6.75 | 81.66 |
+| L-Ankle | 57.29 | 11.12 | 80.59 |
+| R-Ankle | 55.14 | 10.84 | 80.34 |
 ---
 
 #### 📈 Biomechanical Impact
